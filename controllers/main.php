@@ -7,6 +7,10 @@ class Main extends Controller{
         // echo "<p>nuevo controlador main</p>";
     }
 
+    function render(){
+        // $this->view->render('main/index');
+    }
+
   
 }
 

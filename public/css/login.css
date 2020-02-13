@@ -1,0 +1,16 @@
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+     height: 140px;
+    width: 140px;
+   
+  }
+  
+  /* Optional */
+  body {
+     align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+  }
