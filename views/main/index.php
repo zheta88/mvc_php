@@ -18,8 +18,11 @@
         <nav class="text-center">       
           <ul class="menu mt-2">
             <li><a href="nuevo">Registro</a> </li>
-            <li><a href="#">Login</a> </li>
+            <li><a href="login">Login</a> </li>
           </ul>
+          <div>
+            <h1 style="text-align:center;">SALÓN DE BELLEZA</h1>
+          </div>
 
         </nav>
         
@@ -31,7 +34,7 @@
     </div>
   </section>
   <!--footer-copy-right -->
-  <footer class="bottem-wthree-footer text-center py-md-4 py-3">
+  <footer>
     <p>
       © 2020 Zully Tamayo | Derechos Reservados
       <a href="https://electricidadelectronicaytelecomu.blogspot.com/" target="_blank">Sena-CEET</a>

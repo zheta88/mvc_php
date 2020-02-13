@@ -25,11 +25,13 @@ background:url(../image/b1.jpg) no-repeat center fixed;
     color: #36A0FF;
 }
 
+footer{
 
-.avatar {
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    height: 240px;
-    width: 240px;
-  }
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black  ;
+    color: white;
+    text-align: center;
+}

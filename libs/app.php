@@ -38,7 +38,7 @@ class App{
                  $controller->{$url[1]}();
              }
          }else{
-             $controller->render();
+             $controller->index();
          }
      }else{
          $controller = new Errores();

@@ -14,7 +14,7 @@
 </div>
 
     <div class="contenedor">
-        <h1 class="center">¡Regístrate!</h1>
+        <h1 class="center"><?php echo $datos==NULL?'¡Regístrate!':'¡Actualízate!'?></h1>
         <div class="center"><?php echo $this->mensaje; ?></div>
 
         <form action="<?php echo constant('URL'); ?>nuevo/registrar" method="POST">
@@ -23,7 +23,7 @@
             <div>
                 <div>
                 <label for="Cedula">Cédula</label><br>
-                <input type="text" name="Cedula" placeholder="1234567890"size=50 required>
+                <input type="text" name="Cedula" placeholder="1234567890"size=50 value="<?php echo $datos===null?'':$datos['cedula']?>" required>
                 </div>
                 <div>
                 <label for="ROL_idROL">Rol:</label><br>
@@ -58,7 +58,7 @@
                 <input type="password" name="Contrasena" placeholder="123456"size=50 required>
                 </div>
             <p>
-            <input type="submit" value="Ingresar registro">
+            <input type="submit" value="<?php echo $datos===null?'Ingresar registro':'Actualizar registro'?>">
             </p>
             </div>
 
